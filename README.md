@@ -4,6 +4,19 @@
 
 Build a simple event booking app to test **frontend-backend integration**, **state management**, and **REST API** concepts using **Next.js** and **Node.js**.
 
+## Requirements
+
+- Fetch the events from the backend and display them on the frontend
+- Render each event as a link to its corresponding booking form (/events/:id)
+- Allow the user to submit the booking form and create a booking for an event
+- Display the user's booked event on the frontend
+- Allow the user to remove their bookings
+
+## Tips
+
+- Ensure the user is unable to book an event that is at maximum capacity
+- Try to display all details for an event (name, date, available seats remaining)
+
 ## 🛠️ Technologies
 
 - **Frontend**: Next.js + React (TypeScript)
