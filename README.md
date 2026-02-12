@@ -48,20 +48,20 @@ Frontend will run at http://localhost:3000
 ## 📦 Project Structure
 
 ```
-simple-ecommerce-cart/
+event-booking-test/
 ├── backend/
 │   ├── index.ts
 │   ├── types.ts
 │   ├── package.json
 │   └── tsconfig.json
 ├── frontend/
-│   ├── pages/
-│   │   └── index.tsx
+│   ├── app/
+│   │   └── page.tsx
 │   ├── components/
-│   │   ├── ProductList.tsx
-│   │   └── Cart.tsx
+│   │   ├── EventList.tsx
+│   │   └── Bookings.tsx
 │   ├── context/
-│   │   └── CartContext.tsx
+│   │   └── BookingContext.tsx
 │   ├── types.ts
 │   ├── package.json
 │   └── tsconfig.json
@@ -71,8 +71,7 @@ simple-ecommerce-cart/
 
 ## 🧹 Bonus Ideas (Optional)
 
-- Quantity adjustment
-- Persist cart in localStorage
+- Seat quantity adjustment
 - Add loading spinners and error handling
 
 ## 📝 Notes
