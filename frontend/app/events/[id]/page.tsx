@@ -1,3 +1,5 @@
+import BookingForm from "@/components/BookingForm"
+
 export default async function EventPage({
   params,
 }: {
@@ -5,5 +7,9 @@ export default async function EventPage({
 }) {
   const { id } = await params
 
-  return <div>Event ID: {id}</div>
+  return (
+    <div className="p-4">
+      <BookingForm />
+    </div>
+  )
 }

@@ -16,6 +16,7 @@ Build a simple event booking app to test **frontend-backend integration**, **sta
 
 - Ensure the user is unable to book an event that is at maximum capacity
 - Try to display all details for an event (name, date, available seats remaining)
+- Focus on functionality, not styling
 
 ## 🛠️ Technologies
 
@@ -57,30 +58,6 @@ npm run dev
 ```
 
 Frontend will run at http://localhost:3000
-
-## 📦 Project Structure
-
-```
-event-booking-test/
-├── backend/
-│   ├── index.ts
-│   ├── types.ts
-│   ├── package.json
-│   └── tsconfig.json
-├── frontend/
-│   ├── app/
-│   │   └── page.tsx
-│   ├── components/
-│   │   ├── EventList.tsx
-│   │   └── Bookings.tsx
-│   ├── context/
-│   │   └── BookingContext.tsx
-│   ├── types.ts
-│   ├── package.json
-│   └── tsconfig.json
-├── README.md
-└── .gitignore
-```
 
 ## 🧹 Bonus Ideas (Optional)
 
