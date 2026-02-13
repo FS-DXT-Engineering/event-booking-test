@@ -22,6 +22,8 @@ app.get('/health', (req, res) => {
 
 // TODO: GET /events - return all events
 
+// TODO: GET /events/:id - return an event by id
+
 // TODO: GET /bookings - return all bookings
 
 // TODO: POST /bookings - book an event
